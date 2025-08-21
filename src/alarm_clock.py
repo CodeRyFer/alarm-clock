@@ -1,6 +1,9 @@
 import pygame
 import time
 
+CLEAR = "\033[2J"
+CLEAR_AND_RETURN = "\033[H"
+
 def alarm(seconds):
     time_elapse = 0
 
